@@ -2,4 +2,65 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+
+.webgl{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+nav{
+  
+
+  padding: 2rem;
+  z-index: 2;
+  position: relative;
+  
+  
+}
+.nav-container{
+  margin-top: 1%;
+  padding: 5px;
+}
+li{
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}
+.info{
+  
+  display: inline-block;
+  color: black;
+  z-index: 2;
+  position: relative;
+  padding: 2rem;
+  
+}
+
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.para1{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  left: 0;
 }
