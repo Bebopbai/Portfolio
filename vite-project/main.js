@@ -16,7 +16,7 @@ const mesh = new THREE.Mesh( geometry, material);
 
 // sizes screen
 const gltfloader = new GLTFLoader();
-gltfloader.load('./assets/radial_symmetry_test/scene.gltf', (gltfScene) => {
+gltfloader.load('./src/assets/radial_symmetry_test/scene.gltf', (gltfScene) => {
   gltfScene.scene.scale.set(0.1,0.1,0.1)
   
   gltfScene.scene.position.y = size / 10
